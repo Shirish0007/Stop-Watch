@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #a9c2e7;
+    color: #333;
+}
+
+#myH1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #0f0f10;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    background: rgb(221, 217, 217);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 90%;
+    max-width: 400px;
+}
+
+#display {
+    font-size: 3rem;
+    font-family: monospace;
+    margin: 1rem 0;
+    color: #453a3a;
+    padding: 1rem 1.5rem;
+    background: #d4e5f5;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+#controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+#controls button {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#startBtn:hover {
+    background-color: #3e8e41;
+    transform: translateY(15%);
+}
+
+#stopBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#stopBtn:hover {
+    background-color: #d32f2f;
+    transform: translateY(15%);
+   
+
+}
+
+#resetBtn {
+    background-color: #2196F3;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #0b7dda;
+    transform: translateY(15%);
+
+}
+
+button:active {
+    transform: scale(0.98);
+}
